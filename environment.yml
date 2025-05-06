@@ -10,3 +10,6 @@ dependencies:
     - transformers
     - torch
     - accelerate
+    - trl
+    - peft
+    - math_verify

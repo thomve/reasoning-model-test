@@ -11,7 +11,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 # prepare the model input
-prompt = "Give me a short introduction to general relativity."
+prompt = "Give me a scientific introduction to general relativity."
 messages = [
     {"role": "user", "content": prompt}
 ]
