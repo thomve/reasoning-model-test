@@ -1,0 +1,12 @@
+name: reasoning-model-test
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - tensorboard
+  - pip
+  - pip:
+    - transformers
+    - torch
+    - accelerate
